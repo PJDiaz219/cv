@@ -2,19 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
     <title>Pedro Diaz</title>
   </head>
   <body>
 
   <div class="top-container">
+    <div class="navi">
+    <nav class="navbar navbar-expand-lg">
+      <!-- <a class="navbar-brand" href="">Agro</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Hello</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>I'm Pedro</h1>
-    <h2>a <span class="pro">Web</span> Developer</h2>
+    <h2 class="webdev">a <span class="pro">web</span> developer</h2>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
     <img src="images/mountain.png" alt="mountain-img">
   </div>
@@ -22,7 +45,7 @@
   <div class="middle-container">
     <div class="profile">
       <img src="images/profilepic.png" alt="profile-picture">
-      <h2>Hello.</h2>
+      <h2>Hello</h2>
       <p class="intro">I'm' a Web Developer from <strong>Orocovis, PR</strong> that enjoys
       creating websites and apps for different clients.</p>
     </div>
@@ -32,113 +55,684 @@
       <div class="skill-row">
         <img class="code-img" src="images/computer.png" alt="laptop-image">
         <h3><q cite="Isacc Newton">If I have seen further it is by standing on the shoulders of giants.</q><cite>-Isaac Newton</cite></h3>
-      
-<table cellspacing="10">
-  <tbody>
-    <tr>
-      <td>
-        <table>
-          <tbody>
-            <tr>
-              <td><span class="ability-title">HTML(5)</span></td>
-              <td></td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>CSS(3)</td>
-              <td></td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Bootstrap Framework</td>
-              <td></td>
-              <td>⭐</td>
-            </tr>
-            <tr>
-              <td>Javascript</td>
-              <td></td>
-              <td>⭐</td>
-            </tr>
+      <div class="row">
+        <div class="col-md-6">
+		      <ul class="no-bullets">
+		        <li>
+				      <span class="ability-title">Bootstrap Framework</span>
+				      <span class="ability-score">
+					    <span class="glyphicon glyphicon-star filled"></span>
+					    <span class="glyphicon glyphicon-star filled"></span>
+			        <span class="glyphicon glyphicon-star filled"></span>
+					    <span class="glyphicon glyphicon-star filled"></span>
+					    <span class="glyphicon glyphicon-star filled"></span>
+				      </span>
+			      </li>
+			      <li>
+              <span class="ability-title">HTML(5)</span>
+				      <span class="ability-score">
+					    <span class="glyphicon glyphicon-star filled"></span>
+					    <span class="glyphicon glyphicon-star filled"></span>
+					    <span class="glyphicon glyphicon-star filled"></span>
+					    <span class="glyphicon glyphicon-star filled"></span>
+					    <span class="glyphicon glyphicon-star filled"></span>
+				      </span>
+			      </li>
 
-            <tr>
-            <td>JSON</td>
-            <td></td>
-            <td>⭐</td>
-           </tr>
-           <tr>
-            <td>JQuery</td>
-            <td></td>
-            <td>⭐</td>
-           </tr>
-           <tr>
-           <td>PHP</td>
-           <td></td>
-           <td>⭐</td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-      <td></td>
-      <td>
-        <table>
-          <tbody>
-            <tr>
-             <td>Object Oriented Programming</td>
-             <td></td>
-             <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-             <td>Java</td>
-             <td></td>
-             <td>⭐⭐⭐</td>
-            </tr>
-             <tr>
-              <td>Command line Interface</td>
-              <td></td>
-              <td>⭐⭐⭐</td>
-             </tr>
-            <tr>
-              <td>PowerShell</td>
-              <td></td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-             <td>XML</td>
-             <td></td>
-             <td>⭐⭐</td>
-            </tr>
-            <tr>
-             <td>MySQL</td>
-             <td></td>
-             <td>⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Ruby</td>
-              <td></td>
-              <td>⭐</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </tbody>
-</table>
-      </div>
+
+
+			<li>
+				<span class="ability-title">CSS(3)</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">JSON</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">MySQL</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">PHP</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">XML</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Builder Pattern</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Command line Inteface</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">JQuery</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Java</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Javascript</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">LESS</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Laravel Framework</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<ul class="no-bullets">
+
+
+
+			<li>
+				<span class="ability-title">MVC Pattern</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Method Factory Pattern</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Object Orientated Programming</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">SASS / SCSS</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">SEO</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Scrum</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Singleton Pattern</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">UML</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Wordpress</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">BEM</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">AngularJS</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">ElasticSearch</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Ruby</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+		</ul>
+	</div>
+
+
+</div>
+</div>
       <div class="skill-row">
-        <img class="tri-img" src="images/right-coffee-bean.png" alt="pedro-triathlon">
-        <h3>Coffee</h3>
-        <p>I love growing and brewing coffee. It is a complex proccess that I enjoy,
-        from watching the tree grow to produce the coffee beans. The aroma that
-        when toasting the seed and bring a fresh batch to the table. It is a genuine
-        flavor that everyone loves when they visit.</p>
+        <img class="tri-img" src="images/webdata.png" alt="internet-data">
+        <h3>Focus</h3>
+        <p>I like to keep it simple. My goals are to focus on typography,
+          content and conveying the message that you want to send. With my background as a developer I can help
+          I can get your website to run on multiple platfroms using the latest technologies available.</p>
       </div>
     </div>
     <hr>
     <div class="contact-me">
       <h2>Get In Touch</h2>
-      <h3>For work or just grab some coffee</h3>
-      <p class="contact-message">Always open for new projects or just drink some coffee and have a conversation.
-      We can drink coffee while coding, that's for sure.</p>
+      <h3>I'm Currently available for freelance work</h3>
+      <p class="contact-message">If there is a project that you have in mind or just want to get started,
+       and need some help or guidance, feel free to reach out.</p>
       <a class="btn" href="pjdiaz219@gmail.com">CONTACT ME</a>
     </div>
   </div>
@@ -147,7 +741,7 @@
     <a class="footer-link" href="https://www.linkedin.com/in/pj-diaz/">LinkedIn</a>
     <!-- <a class="footer-link" href="https://twitter.com/">Twitter</a>
     <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
-    <p id="copyright">© Pedro Díaz.</p>
+    <p id="copyright">© Pedro Díaz. All rights reserved.</p>
   </div>
   </body>
 </html>
