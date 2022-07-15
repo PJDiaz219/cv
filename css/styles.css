@@ -5,18 +5,40 @@ body{
   color: #40514E;
 }
 
+.navi{
+  background-color: #EAF6F6;
+  position: relative;
+}
+
+nav{
+  background-color: #EAF6F6;
+}
+
+.navbar-brand{
+  color: #11999E;
+}
+
 h1{
   color: #66BFBF;
-  font-size: 5.625rem;
+  font-size: 5rem;
+  font-weight: normal;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
-h2{
-  color: #66BFBF;
-  font-size: 2.5rem;
+.webdev{
+  font-size: 1.2rem;
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
+  margin: 0 auto 20px auto;
+}
+
+h2{
+  color: #66BFBF;
+  font-size: 2.4rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
   padding-bottom: 10px;
 }
 
@@ -37,20 +59,19 @@ p{
   /* background-color: #F2EBE9; */
   /* background-color: #E4F9F5; */
   background-color: #EAF6F6;
-  position: relative;
-  padding-top: 100px;
+  po
 }
 
 .top-cloud{
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 40%;
+  bottom: 500px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 40%;
+  bottom: 400px;
 }
 
 .middle-container{
@@ -110,6 +131,11 @@ hr{
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .tri-img{
