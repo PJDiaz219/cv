@@ -47,31 +47,24 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
-p{
-  line-height: 2;
-}
-
 .pro{
   text-decoration: underline;
 }
 
 .top-container{
-  /* background-color: #F2EBE9; */
-  /* background-color: #E4F9F5; */
   background-color: #EAF6F6;
-  po
 }
 
 .top-cloud{
   position: absolute;
   right: 40%;
-  bottom: 500px;
+  bottom: 600px;
 }
 
 .bottom-cloud{
   position: absolute;
   left: 40%;
-  bottom: 400px;
+  bottom: 500px;
 }
 
 .middle-container{
@@ -80,8 +73,29 @@ p{
 }
 
 .intro{
-  width: 30%;
-  margin: auto;
+  position: relative;
+  left: 35%;
+  text-align:left;
+  font-size: 1rem;
+  font-family: "Montserrat-light";
+  margin-bottom: 5%;
+}
+
+.about-me{
+  text-align: center;
+}
+
+.profile-img{
+  position: relative;
+  left: 80%;
+}
+
+.myinfo{
+  position: relative;
+  left: 15%;
+  width: 10%;
+  padding: 0;
+
 }
 
 table{
@@ -118,7 +132,7 @@ hr{
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .skill-row{
@@ -133,9 +147,47 @@ hr{
   margin-right: 30px;
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
+element.style {
+}
+
+#abilities ul > li .ability-score .glyphicon.filled {
+    color: #22A39F;
+}
+
+#abilities ul > li .ability-score .glyphicon {
+    color: #DFE0E0;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .tri-img{
