@@ -47,11 +47,17 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
+/* p{
+  line-height: 2;
+} */
+
 .pro{
   text-decoration: underline;
 }
 
 .top-container{
+  /* background-color: #F2EBE9; */
+  /* background-color: #E4F9F5; */
   background-color: #EAF6F6;
 }
 
@@ -146,6 +152,11 @@ hr{
   float: left;
   margin-right: 30px;
 }
+
+/* .row {
+    margin-right: -15px;
+    margin-left: -15px;
+} */
 
 element.style {
 }
