@@ -94,15 +94,13 @@ hr{
   margin-bottom: 20px;
 }
 
-.col-md-4{
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+.details{
+  text-align: center;
 }
 
 .social-icon{
   color: #243A73;
+  margin-left: 42%;
 }
 
 #skills{
@@ -129,9 +127,6 @@ hr{
 .bottom-container{
   background-color: #8879B0;
   padding: 50px 0 20px;
-}
-
-.bottom-container{
   text-align: center;
 }
 
